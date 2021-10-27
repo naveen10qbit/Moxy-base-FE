@@ -1,5 +1,5 @@
 <template>
-  <div class="card me-4 mb-4 shadow-lg" style="width: 14rem">
+  <div class="card me-4 mb-4" style="width: 14rem">
     <div class="col">
       <div class="card-body">
         <img
