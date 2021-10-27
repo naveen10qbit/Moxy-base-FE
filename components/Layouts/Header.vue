@@ -10,8 +10,8 @@
       >
         <a href=".">
           <img
-            src="@/assets/logo.png"
-            width="100"
+            src="@/assets/logo2.png"
+            width="500"
             height="35"
             alt="Tabler"
             class="navbar-brand-image"
