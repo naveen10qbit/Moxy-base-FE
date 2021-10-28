@@ -6,7 +6,7 @@
         class="card-img-top border w-5 h-100"
         alt="..."
       />
-      <h4 class="font-monospace mt-3 ms-2">Lahiru Prasad</h4>
+      <h4 class="mt-3 ms-2">Lahiru Prasad</h4>
     </div>
     <!-- <hr /> -->
     <h2 class="mt-3">Looking for mentors...</h2>
