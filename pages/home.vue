@@ -26,15 +26,16 @@
                 </div>
             </div>
             <div class="col-12 col-lg-6">
-                <div class="card" style="height: 8rem ">
+                <div class="card" style="height: 9rem ">
                     <div class="card-body">
                         <div class="row">
                             <div class="col-auto">
-                            <div class="skeleton-avatar"></div>
+                            <!-- <div class="skeleton-avatar"></div> -->
+                            <img src="/image1.jpg" alt="Avatar" style="width: 4rem; height: 4rem; border-radius: 50%;" class="avatar rounded-circle">
                             </div>
                             <div class="col">
                             <div class="form-group">
-                                <input class="form-control input-lg" style="border-radius: 1rem;" placeholder="Start a post" id="inputlg" type="text">
+                                <input class="form-control input-lg" style="border-radius: 2rem; height: 4rem;" placeholder="  Start a post" id="inputlg" type="text">
                             </div>
                             <div class="skeleton-line mt-2"></div>
                             <div class="skeleton-line"></div>
