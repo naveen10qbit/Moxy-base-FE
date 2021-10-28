@@ -1,5 +1,5 @@
 <template>
-  <header class="navbar navbar-expand-md navbar-light d-print-none shadow-lg">
+  <header class="navbar navbar-expand-md navbar-light d-print-none">
     <div class="container-xl">
       <h1
         class="
