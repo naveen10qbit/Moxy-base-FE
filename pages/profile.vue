@@ -34,7 +34,7 @@
         <div class="page-wrapper">
           <div class="page-body">
             <div class="row">
-              <div class="col-3">
+              <div class="col-sm-3">
                 <div class="card">
                   <img
                     src="@/assets/avator.png"
@@ -69,7 +69,7 @@
 
                 <hr>
 
-                <div class="mt-2">
+                <div class="mt-2 mb-2">
                   <h3>Social Links</h3>
                   <a href="#" class="btn btn-facebook btn-icon" aria-label="Button">
                     <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-facebook" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -91,7 +91,7 @@
                   </a>
                 </div>
               </div>
-              <div class="col-9">
+              <div class="col-sm-9">
                 <div class="row col-md-12 mt-0">
                   <div class="card">
                     <div class="card-header">
