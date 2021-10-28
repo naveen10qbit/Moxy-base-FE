@@ -1,17 +1,19 @@
 <template>
     <div  class="container-xl">
         <div class="row mt-4">
-            <div class="col-12 col-lg-2">
+            <div class="col-12 col-lg-3">
                 <div class="card mb-3" style="height: 30rem">
                     <div class="card-body py-3 text-center">
                     <div>
-                        <div class="skeleton-avatar skeleton-avatar-lg"></div>
+                        <!-- <div class="skeleton-avatar skeleton-avatar-lg"></div> -->
+                        <img src="/image1.jpg" alt="Avatar" style="width: 8rem; height: 8rem; border-radius: 50%;" class="avatar rounded-circle">
+                        <!-- <span class="badge bg-success"></span> -->
                     </div>
                     <div class="mt w-75 mx-auto">
                         <!-- <div class="skeleton-heading"></div>
                         <div class="skeleton-line"></div> -->
-                        <div class="">
-                            <h2>Rosie Lawrence</h2>
+                        <div class="mt-1">
+                            <h2>Samantha Lawrence</h2>
                         </div>
                         <div class="skeleton-line"></div>
                         <div class="skeleton-line"></div>
@@ -62,7 +64,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-lg-4">
+            <div class="col-12 col-lg-3">
                 <div class="card mb-3">
                     <ul class="list-group list-group-flush">
                     <li class="list-group-item">
