@@ -31,7 +31,7 @@
           <div class="page-wrapper">
         <div class="page-body">
             <div class="row">
-              <div class="col-3">
+              <div class="col-12 col-lg-3">
                 <form action="" method="get">
                   <div class="header mb-2 mt-2">Filter by type</div>
                   <div class="col">
@@ -51,11 +51,11 @@
                       </div>
                 </form>
               </div>
-              <div class="col-9">
+              <div class="col-12 col-lg-9">
                 <div class="page-body">
-          <div class="container-xl">
+          <!-- <div class="container-xl"> -->
             <div class="row row-cards">
-              <div class="col-3">
+              <div class="col-lg-3">
                 <div class="card">
                   <div class="ratio ratio-21x9 card-img-top">
                     <div class="skeleton-image"></div>
@@ -67,7 +67,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-3">
+              <div class="col-lg-3">
                 <div class="card">
                   <div class="ratio ratio-21x9 card-img-top">
                     <div class="skeleton-image"></div>
@@ -79,7 +79,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-3">
+              <div class="col-lg-3">
                 <div class="card">
                   <div class="ratio ratio-21x9 card-img-top">
                     <div class="skeleton-image"></div>
@@ -91,7 +91,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-3">
+              <div class="col-lg-3">
                 <div class="card">
                   <div class="ratio ratio-21x9 card-img-top">
                     <div class="skeleton-image"></div>
@@ -103,7 +103,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-3">
+              <div class="col-lg-3">
                 <div class="card">
                   <div class="ratio ratio-21x9 card-img-top">
                     <div class="skeleton-image"></div>
@@ -115,7 +115,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-3">
+              <div class="col-lg-3">
                 <div class="card">
                   <div class="ratio ratio-21x9 card-img-top">
                     <div class="skeleton-image"></div>
@@ -127,7 +127,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-3">
+              <div class="col-lg-3">
                 <div class="card">
                   <div class="ratio ratio-21x9 card-img-top">
                     <div class="skeleton-image"></div>
@@ -139,55 +139,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-3">
-                <div class="card">
-                  <div class="ratio ratio-21x9 card-img-top">
-                    <div class="skeleton-image"></div>
-                  </div>
-                  <div class="card-body">
-                    <div class="skeleton-heading"></div>
-                    <div class="skeleton-line"></div>
-                    <div class="skeleton-line"></div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-3">
-                <div class="card">
-                  <div class="ratio ratio-21x9 card-img-top">
-                    <div class="skeleton-image"></div>
-                  </div>
-                  <div class="card-body">
-                    <div class="skeleton-heading"></div>
-                    <div class="skeleton-line"></div>
-                    <div class="skeleton-line"></div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-3">
-                <div class="card">
-                  <div class="ratio ratio-21x9 card-img-top">
-                    <div class="skeleton-image"></div>
-                  </div>
-                  <div class="card-body">
-                    <div class="skeleton-heading"></div>
-                    <div class="skeleton-line"></div>
-                    <div class="skeleton-line"></div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-3">
-                <div class="card">
-                  <div class="ratio ratio-21x9 card-img-top">
-                    <div class="skeleton-image"></div>
-                  </div>
-                  <div class="card-body">
-                    <div class="skeleton-heading"></div>
-                    <div class="skeleton-line"></div>
-                    <div class="skeleton-line"></div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-3">
+              <div class="col-lg-3">
                 <div class="card">
                   <div class="ratio ratio-21x9 card-img-top">
                     <div class="skeleton-image"></div>
@@ -200,7 +152,7 @@
                 </div>
               </div>
             </div>
-          </div>
+          <!-- </div> -->
         </div>
               </div>
             </div>
