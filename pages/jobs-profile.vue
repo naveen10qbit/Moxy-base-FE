@@ -31,7 +31,7 @@
           <div class="page-wrapper">
         <div class="page-body">
             <div class="row">
-              <div class="col-3">
+              <div class="col-12 col-lg-3">
                 <form action="" method="get">
                   <div class="header mb-2 mt-2">Filter by type</div>
                   <div class="col">
@@ -51,12 +51,12 @@
                       </div>
                 </form>
               </div>
-              <div class="col-9">
+              <div class="col-12 col-lg-9">
                 <div class="page-body">
           <div class="container-xl">
             <div class="row row-cards">
                 <!-- <div class="p-3"> -->
-              <div class="col-8 pt-3 pl-3 pd-2">
+              <div class="col-12 col-lg-8 pt-3 pl-3 pd-2">
                     <div class="card">
                       <div class="row g-0 align-items-center">
                         <div class="col-3">
@@ -74,7 +74,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="col-8 pt-3 pl-3 pd-2">
+                  <div class="col-12 col-lg-8 pt-3 pl-3 pd-2">
                     <div class="card">
                       <div class="row g-0 align-items-center">
                         <div class="col-3">
@@ -92,7 +92,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="col-8 pt-3 pl-3 pd-2">
+                  <div class="col-12 col-lg-8 pt-3 pl-3 pd-2">
                     <div class="card">
                       <div class="row g-0 align-items-center">
                         <div class="col-3">
@@ -110,7 +110,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="col-8 pt-3 pl-3 pd-2">
+                  <div class="col-12 col-lg-8 pt-3 pl-3 pd-2">
                     <div class="card">
                       <div class="row g-0 align-items-center">
                         <div class="col-3">
