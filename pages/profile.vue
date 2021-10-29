@@ -34,7 +34,7 @@
         <div class="page-wrapper">
           <div class="page-body">
             <div class="row">
-              <div class="col-sm-3">
+              <div class="col-sm-3 ps-3">
                 <div class="card">
                   <img
                     src="@/assets/avator.png"
@@ -91,7 +91,7 @@
                   </a>
                 </div>
               </div>
-              <div class="col-sm-9">
+              <div class="col-sm-9 ps-3 pe-1">
                 <div class="row col-md-12 mt-0">
                   <div class="card">
                     <div class="card-header">
@@ -113,7 +113,7 @@
                   </div>
                 </div>
 
-                <div class="row col-md-12 mt-2">
+                <div class="row col-md-12 mt-3">
                   <div class="card">
                     <div class="card-header">
                       <h3 class="card-title">Experience</h3>
@@ -134,7 +134,7 @@
                   </div>
                 </div>
 
-                <div class="row col-md-12 mt-2">
+                <div class="row col-md-12 mt-3">
                   <div class="card">
                     <div class="card-header">
                       <h3 class="card-title"><a href="#">Reviews (25)</a></h3>

@@ -9,7 +9,7 @@
         <div class="carousel-inner">
           <div class="carousel-item">
             <img class="d-block" width="1500" height="232" alt="" src="/sample.png">
-            
+
             <div class="carousel-caption d-none d-md-block">
               <h3 style="color:black;">Slide 1</h3>
               <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
@@ -17,7 +17,7 @@
           </div>
           <div class="carousel-item">
             <img class="d-block" width="1500" height="232" alt="" src="/sample.png">
-            
+
             <div class="carousel-caption d-none d-md-block">
               <h3 style="color:black;">Slide 2</h3>
               <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
@@ -25,7 +25,7 @@
           </div>
           <div class="carousel-item active">
             <img class="d-block" width="1500" height="232" alt="" src="/sample.png">
-            
+
             <div class="carousel-caption d-none d-md-block">
               <h3 style="color:black;">Slide 3</h3>
               <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
@@ -33,7 +33,7 @@
           </div>
           <div class="carousel-item">
             <img class="d-block" width="1500" height="232" alt="" src="/sample.png">
-            
+
             <div class="carousel-caption d-none d-md-block">
               <h3 style="color:black;">Slide 4</h3>
               <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
@@ -41,7 +41,7 @@
           </div>
           <div class="carousel-item">
             <img class="d-block" width="1500" height="232" alt="" src="/sample.png">
-            
+
             <div class="carousel-caption d-none d-md-block">
               <h3 style="color:black;" >Slide 5</h3>
               <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
@@ -148,7 +148,7 @@
 
 <script>
   export default {
-    
+
   }
 </script>
 
