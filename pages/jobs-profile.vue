@@ -56,7 +56,7 @@
           <div class="container-xl">
             <div class="row row-cards">
                 <!-- <div class="p-3"> -->
-              <div class="col-12 col-lg-8 pt-3 pl-3 pd-2">
+              <div class="col-lg-9 pt-3 pl-3 pd-2">
                     <div class="card">
                       <div class="row g-0 align-items-center">
                         <div class="col-3">
@@ -74,7 +74,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="col-12 col-lg-8 pt-3 pl-3 pd-2">
+                  <div class="col-lg-9 pt-3 pl-3 pd-2">
                     <div class="card">
                       <div class="row g-0 align-items-center">
                         <div class="col-3">
@@ -92,7 +92,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="col-12 col-lg-8 pt-3 pl-3 pd-2">
+                  <div class="col-lg-9 pt-3 pl-3 pd-2">
                     <div class="card">
                       <div class="row g-0 align-items-center">
                         <div class="col-3">
@@ -110,7 +110,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="col-12 col-lg-8 pt-3 pl-3 pd-2">
+                  <div class="col-lg-9 pt-3 pl-3 pd-2">
                     <div class="card">
                       <div class="row g-0 align-items-center">
                         <div class="col-3">
