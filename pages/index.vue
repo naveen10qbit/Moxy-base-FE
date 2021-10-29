@@ -1,156 +1,177 @@
 <template>
-  <div class="container-xl">
-    <div class="d-inline-block mx-3 mt-4">
-      <a href="#" class="link-secondary">Find mentors </a>|
-      <a href="#" class="link-secondary">Find jobs</a>
-    </div>
-    <div class="card-body">
-      <div id="carousel-captions" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item">
-            <img class="d-block" width="1500" height="232" alt="" src="/sample.png">
-            
-            <div class="carousel-caption d-none d-md-block">
-              <h3 style="color:black;">Slide 1</h3>
-              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img class="d-block" width="1500" height="232" alt="" src="/sample.png">
-            
-            <div class="carousel-caption d-none d-md-block">
-              <h3 style="color:black;">Slide 2</h3>
-              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-            </div>
-          </div>
-          <div class="carousel-item active">
-            <img class="d-block" width="1500" height="232" alt="" src="/sample.png">
-            
-            <div class="carousel-caption d-none d-md-block">
-              <h3 style="color:black;">Slide 3</h3>
-              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img class="d-block" width="1500" height="232" alt="" src="/sample.png">
-            
-            <div class="carousel-caption d-none d-md-block">
-              <h3 style="color:black;">Slide 4</h3>
-              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img class="d-block" width="1500" height="232" alt="" src="/sample.png">
-            
-            <div class="carousel-caption d-none d-md-block">
-              <h3 style="color:black;" >Slide 5</h3>
-              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-            </div>
-          </div>
-        </div>
-        <a class="carousel-control-prev" href="#carousel-captions" role="button" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carousel-captions" role="button" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </a>
-      </div>
-    </div>
-    <div>
-      <h2 class="mb-15 mb-md-20 mx-3 mt-2">Find your mentor...</h2>
-      <div>
-        <div class="card mt-1 mx-3">
-        <div id="carouselExampleControls" class="carousel slide" data-bs-interval="false">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <div class="d-flex flex-row bd-highlight mt-4 ms-4">
-                <MentorsSingleMentor />
-                <MentorsSingleMentor />
-                <MentorsSingleMentor />
-                <MentorsSingleMentor />
-                <MentorsSingleMentor />
-              </div>
-            </div>
-          </div>
-          <button
-            class="carousel-control-prev"
-            type="button"
-            data-bs-target="#carouselExampleDark"
-            data-bs-slide="prev"
-          >
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button
-            class="carousel-control-next"
-            type="button"
-            data-bs-target="#carouselExampleDark"
-            data-bs-slide="next"
-          >
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
-        </div>
-        </div>
-      </div>
-    </div>
-    <div>
-      <h2 class="mb-15 mb-md-20 mx-3 mt-4">Find new jobs...</h2>
-      <div class="card mt-1 mx-3">
-        <div
-          id="carouselExampleControls"
-          class="carousel slide"
-          data-bs-interval="false"
-        >
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <div class="d-flex flex-row bd-highlight">
-                <div class="card ms-4 mt-4 mb-4" style="width: 18rem">
-                  <JobsSingleJob />
+    <div  class="container-xl">
+        <div class="row mt-4">
+            <div class="col-12 col-lg-3">
+                <div class="card mb-3" style="height: 30rem">
+                    <div class="card-body py-3 text-center">
+                    <div>
+                        <!-- <div class="skeleton-avatar skeleton-avatar-lg"></div> -->
+                        <img src="/image1.jpg" alt="Avatar" style="width: 8rem; height: 8rem; border-radius: 50%;" class="avatar rounded-circle">
+                        <!-- <span class="badge bg-success"></span> -->
+                    </div>
+                    <div class="mt w-75 mx-auto">
+                        <!-- <div class="skeleton-heading"></div>
+                        <div class="skeleton-line"></div> -->
+                        <div class="mt-1">
+                            <h2>Samantha Lawrence</h2>
+                        </div>
+                        <div class="skeleton-line"></div>
+                        <div class="skeleton-line"></div>
+                        <div class="skeleton-line"></div>
+                        <hr class="mt-3 mb-5"/>
+                        <hr class="mb-5"/>
+                        <hr />
+                    </div>
+                    </div>
                 </div>
-                <div class="card ms-3 mt-4 mb-4" style="width: 18rem">
-                  <JobsSingleJob />
-                </div>
-                <div class="card ms-3 mt-4 mb-4" style="width: 18rem">
-                  <JobsSingleJob />
-                </div>
-                <div class="card ms-3 mt-4 mb-4" style="width: 18rem">
-                  <JobsSingleJob />
-                </div>
-              </div>
             </div>
-          </div>
-          <button
-            class="carousel-control-prev"
-            type="button"
-            data-bs-target="#carouselExampleDark"
-            data-bs-slide="prev"
-          >
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button
-            class="carousel-control-next"
-            type="button"
-            data-bs-target="#carouselExampleDark"
-            data-bs-slide="next"
-          >
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
+            <div class="col-12 col-lg-6">
+                <div class="card" style="height: 9rem ">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-auto">
+                            <!-- <div class="skeleton-avatar"></div> -->
+                            <img src="/image1.jpg" alt="Avatar" style="width: 4rem; height: 4rem; border-radius: 50%;" class="avatar rounded-circle">
+                            </div>
+                            <div class="col">
+                            <div class="form-group">
+                                <input class="form-control input-lg" style="border-radius: 2rem; height: 4rem;" placeholder="  Start a post" id="inputlg" type="text">
+                            </div>
+                            <div class="skeleton-line mt-2"></div>
+                            <div class="skeleton-line"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr class="mt-3 mb-3" />
+                <div class="card mb-3">
+                    <div class="ratio ratio-21x9 card-img-top">
+                    <div class="skeleton-image"></div>
+                    </div>
+                    <div class="card-body">
+                    <div class="skeleton-heading"></div>
+                    <div class="skeleton-line"></div>
+                    <div class="skeleton-line"></div>
+                    </div>
+                </div>
+                <div class="card mb-3">
+                    <div class="ratio ratio-21x9 card-img-top">
+                    <div class="skeleton-image"></div>
+                    </div>
+                    <div class="card-body">
+                    <div class="skeleton-heading"></div>
+                    <div class="skeleton-line"></div>
+                    <div class="skeleton-line"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-3">
+                <div class="card mb-3">
+                    <ul class="list-group list-group-flush">
+                    <li class="list-group-item">
+                        <div class="row align-items-center">
+                            <div class="col-auto">
+                                <div class="skeleton-avatar"></div>
+                            </div>
+                            <div class="col-7">
+                                <div class="skeleton-line"></div>
+                                <div class="skeleton-line"></div>
+                            </div>
+                            <div class="col-2 ms-auto text-end">
+                                <div class="skeleton-line"></div>
+                                <div class="skeleton-line"></div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="row align-items-center">
+                        <div class="col-auto">
+                            <div class="skeleton-avatar"></div>
+                        </div>
+                        <div class="col-7">
+                            <div class="skeleton-line"></div>
+                            <div class="skeleton-line"></div>
+                        </div>
+                        <div class="col-2 ms-auto text-end">
+                            <div class="skeleton-line"></div>
+                            <div class="skeleton-line"></div>
+                        </div>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="row align-items-center">
+                        <div class="col-auto">
+                            <div class="skeleton-avatar"></div>
+                        </div>
+                        <div class="col-7">
+                            <div class="skeleton-line"></div>
+                            <div class="skeleton-line"></div>
+                        </div>
+                        <div class="col-2 ms-auto text-end">
+                            <div class="skeleton-line"></div>
+                            <div class="skeleton-line"></div>
+                        </div>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="row align-items-center">
+                        <div class="col-auto">
+                            <div class="skeleton-avatar"></div>
+                        </div>
+                        <div class="col-7">
+                            <div class="skeleton-line"></div>
+                            <div class="skeleton-line"></div>
+                        </div>
+                        <div class="col-2 ms-auto text-end">
+                            <div class="skeleton-line"></div>
+                            <div class="skeleton-line"></div>
+                        </div>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="row align-items-center">
+                        <div class="col-auto">
+                            <div class="skeleton-avatar"></div>
+                        </div>
+                        <div class="col-7">
+                            <div class="skeleton-line"></div>
+                            <div class="skeleton-line"></div>
+                        </div>
+                        <div class="col-2 ms-auto text-end">
+                            <div class="skeleton-line"></div>
+                            <div class="skeleton-line"></div>
+                        </div>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="row align-items-center">
+                        <div class="col-auto">
+                            <div class="skeleton-avatar"></div>
+                        </div>
+                        <div class="col-7">
+                            <div class="skeleton-line"></div>
+                            <div class="skeleton-line"></div>
+                        </div>
+                        <div class="col-2 ms-auto text-end">
+                            <div class="skeleton-line"></div>
+                            <div class="skeleton-line"></div>
+                        </div>
+                        </div>
+                    </li>
+                    </ul>
+                </div>
+                <div class="card">
+                  <div class="ratio ratio-21x9 card-img-top">
+                    <div class="skeleton-image"></div>
+                  </div>
+                  <div class="card-body">
+                    <!-- <div class="skeleton-heading"></div>
+                    <div class="skeleton-line"></div>
+                    <div class="skeleton-line"></div> -->
+                    <h3> Find new jobs </h3>
+                  </div>
+                </div>
+            </div>
         </div>
-      </div>
     </div>
-  </div>
 </template>
-
-<script>
-  export default {
-
-  }
-</script>
-
-<style lang="scss" scoped>
-</style>
